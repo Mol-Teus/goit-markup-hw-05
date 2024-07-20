@@ -568,7 +568,11 @@ input {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 }
- 
+
+.form-input {
+    border: 1px solid orange;
+    outline: none;
+}
 .page-footer {
     background-color:#2e2f42;
     padding-top: 100px ;
@@ -677,6 +681,7 @@ background-color: #31d0aa;
     width: 453px;
     height: 80px;
     margin-right: 120px;
+    margin-left: auto;
 }
 .text-subscr {
         font-weight: 500;
@@ -698,6 +703,7 @@ background-color: #31d0aa;
     display: block;
     border-radius: 4px;
     padding: 8px 24px;
+     
     width: 165px;
     height: 40px;
     background: #4d5ae5;
@@ -707,6 +713,12 @@ background-color: #31d0aa;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+     
+}
+.form-button:hover,
+.form-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 
 }
 .send-icon {
