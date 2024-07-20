@@ -555,24 +555,23 @@ input {
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.04em;    
+    letter-spacing: 0.04em; 
+
     color: #fff;
-    font-family: inherit;
+     
     padding-left: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
 
-    background-color: #2e2f42;
+    background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 }
 
-.form-input {
-    border: 1px solid orange;
-    outline: none;
-}
+ 
+ 
 .page-footer {
     background-color:#2e2f42;
     padding-top: 100px ;
@@ -694,17 +693,19 @@ background-color: #31d0aa;
 
 .footer-form {
     display:flex;
-     
+    gap: 24px;
      
 }
 
 .form-button {
      
-    display: block;
+    display: flex;
+    border: none;
     border-radius: 4px;
     padding: 8px 24px;
-     
-    width: 165px;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;  
     height: 40px;
     background: #4d5ae5;
     color:#fff;
@@ -713,7 +714,7 @@ background-color: #31d0aa;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-     
+    cursor: pointer;
 }
 .form-button:hover,
 .form-button:focus {
