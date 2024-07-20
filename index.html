@@ -639,12 +639,21 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subcontainer">
+        <div class="footer-formcontainer">
           <p class="text-subscr">Subscribe</p>
+
+          <form class="footer-form" name="Subscribe_form" autocomplete="off">
+            <label>
+              <input type="text" name="email" placeholder="E-mail" />
+            </label>
+
+            <button class="form-button" type="submit">Subscribe</button>
+          </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
+      <!--------is open--------->
       <div class="modal">
         <form class="form" name="close_form" autocomplete="off">
           <button class="close-button" type="close-btn">
@@ -657,3 +666,9 @@
     </div>
   </body>
 </html>
+
+<a class="foot-subs-link" href="" target=" ">
+  <svg class="foot-subs-icon" width="24" height="24">
+    <use href="./images/icons.svg#icon"></use>
+  </svg>
+</a>
