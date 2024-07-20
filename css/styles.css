@@ -544,7 +544,7 @@ padding-left: 0;
 list-style: none;
 }
 
-label {
+.label {
         display: flex;
         flex-direction: column;
         margin-bottom: 16px;
@@ -554,7 +554,7 @@ label {
 input {
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height:2;
     letter-spacing: 0.04em; 
 
     color: #fff;
