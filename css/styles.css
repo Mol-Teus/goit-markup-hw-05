@@ -555,14 +555,15 @@ input {
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.04em;
-        
+    letter-spacing: 0.04em;    
     color: #fff;
     font-family: inherit;
+    padding-left: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
+
     background-color: #2e2f42;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
@@ -693,6 +694,7 @@ background-color: #31d0aa;
 }
 
 .form-button {
+     
     display: block;
     border-radius: 4px;
     padding: 8px 24px;
@@ -705,8 +707,12 @@ background-color: #31d0aa;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-}
 
+}
+.send-icon {
+    fill: #fff;
+    margin-left: 16px;
+}
 
 
 
@@ -772,7 +778,7 @@ button {
         align-items: center;
 }
  
-  .close-button {
+.close-button {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -794,6 +800,5 @@ button {
   .close-button:focus {
       background-color: #404BBF;
       border: none;
-      
       cursor: pointer;
   }
