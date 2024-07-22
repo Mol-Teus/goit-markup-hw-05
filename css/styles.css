@@ -741,6 +741,7 @@ button {
 
 }
 
+
   .backdrop {
     position: fixed;
     top: 0;
@@ -817,6 +818,9 @@ margin-bottom: 8px;
     border-color: #4D5AE5;
      
 }
+.user-comment>.modal-label-text:focus {
+border-color: #4D5AE5;
+}
 
 .user-soc-icon {
     fill: #4D5AE5;
@@ -873,15 +877,19 @@ margin-bottom: 8px;
      
     
 }
+.checkbox-field input[type="checkbox"]:checked+label span {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+    border: none;
+}
 .user-icon {
     fill: #4D5AE5;
     
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox-link{
+ 
+.pp-link {
     color:#4d5ae5;
-
-
 }
 .send-button {
     display: block;
