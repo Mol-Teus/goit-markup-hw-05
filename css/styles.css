@@ -743,7 +743,15 @@ button {
 svg {
     display: block;
 }
-
+input[type="checkbox"]:checked+label {
+    color: #4d5ae5;
+}
+ .checkbox-field input[type="checkbox"]:checked+label span {
+     background-color: #404bbf;
+     fill: #f4f4fd;
+     border: none;
+ }
+ 
   .backdrop {
     position: fixed;
     top: 0;
@@ -788,7 +796,11 @@ svg {
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- 
+.modal-icon {
+    color: #2e2f42;
+    margin: auto auto;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
 .close-button {
     position: absolute;
     top: 24px;
@@ -823,7 +835,10 @@ svg {
     letter-spacing: 0.02em;
     color:#2E2F42;
     margin-bottom: 16px;
-}  
+} 
+.modal-form:focus-within {
+fill: #4D5AE5;
+} 
 .modal-contact-container{
 margin-bottom: 8px;
 }
@@ -858,14 +873,14 @@ margin-bottom: 8px;
 .mod-user:focus,
 .user-soc-icon:focus  {
     border-color: #4D5AE5;
-     
+      
 }
 .user-comment>.modal-label-text:focus {
 border-color: #4D5AE5;
 }
 
 .user-soc-icon {
-    
+    color: #2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -923,6 +938,7 @@ border-color: #4D5AE5;
     justify-content: center;
     fill: transparent;
 }
+
 .modal-checkbox-link {
     line-height: 1.33;
     text-decoration: underline;
@@ -956,14 +972,10 @@ border-color: #4D5AE5;
     margin-right: auto;
     background-color: #4D5AE5;
     border:none;
+    border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
 }
 
-.modal-icon {
-    fill: #2e2f42;
-    margin: auto auto;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2,1);
-}
+
