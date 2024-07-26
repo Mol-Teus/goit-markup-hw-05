@@ -912,7 +912,7 @@ border-color: #4D5AE5;
 
  
 .mod-user:focus   {
-   fill: #4d5ae5;
+border-color: #4d5ae5;
 }
 
 .modal-label-text::placeholder {
